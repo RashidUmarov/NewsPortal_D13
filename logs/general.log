@@ -1,0 +1,6 @@
+INFO 2023-01-16 21:44:15,810 autoreload Watching for file changes with StatReloader
+INFO 2023-01-16 21:45:06,199 autoreload E:\PyCharmProjects\Module D7\NewsPaper\news\views.py changed, reloading.
+INFO 2023-01-16 21:45:07,221 autoreload Watching for file changes with StatReloader
+INFO 2023-01-16 21:46:42,840 autoreload E:\PyCharmProjects\Module D7\NewsPaper\news\views.py changed, reloading.
+INFO 2023-01-16 21:46:44,047 autoreload Watching for file changes with StatReloader
+INFO 2023-01-16 21:47:02,971 autoreload E:\PyCharmProjects\Module D7\NewsPaper\NewsPaper\settings.py changed, reloading.

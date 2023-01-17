@@ -1,0 +1,52 @@
+ERROR 2023-01-15 20:35:47,292 Internal Server Error: /news/ E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\utils\log.py (<class 'TypeError'>, TypeError("_log() got an unexpected keyword argument 'asdg'"), <traceback object at 0x0000025726A2C780>)
+Traceback (most recent call last):
+  File "E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+  File "E:\PyCharmProjects\Module D7\NewsPaper\news\views.py", line 70, in get_context_data
+    logger.critical('ֿנטגוע מע כמדדונא '+logger.name, asdg='')
+  File "C:\Users\Rosh\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1481, in critical
+    self._log(CRITICAL, msg, args, **kwargs)
+TypeError: _log() got an unexpected keyword argument 'asdg'
+ERROR 2023-01-15 20:35:47,298 "GET /news/ HTTP/1.1" 500 96254 E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\core\servers\basehttp.py None
+ERROR 2023-01-16 21:31:38,720 Internal Server Error: /news/ E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\utils\log.py (<class 'AttributeError'>, AttributeError("'int' object has no attribute 'print'"), <traceback object at 0x00000174446C0FC0>)
+Traceback (most recent call last):
+  File "E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+  File "E:\PyCharmProjects\Module D7\NewsPaper\news\views.py", line 73, in get_context_data
+    context['test'] = self.request.user.id.print()
+AttributeError: 'int' object has no attribute 'print'
+ERROR 2023-01-16 21:31:38,723 "GET /news/ HTTP/1.1" 500 91893 E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\core\servers\basehttp.py None
+ERROR 2023-01-16 21:45:10,005 Internal Server Error: /news/ E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\utils\log.py (<class 'TypeError'>, TypeError("_log() got an unexpected keyword argument 'erwt'"), <traceback object at 0x0000028C2EF9A500>)
+Traceback (most recent call last):
+  File "E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\views\generic\list.py", line 174, in get
+    context = self.get_context_data()
+  File "E:\PyCharmProjects\Module D7\NewsPaper\news\views.py", line 72, in get_context_data
+    logger.critical('ֿנטגוע מע כמדדונא '+logger.name, erwt='')
+  File "C:\Users\Rosh\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 1481, in critical
+    self._log(CRITICAL, msg, args, **kwargs)
+TypeError: _log() got an unexpected keyword argument 'erwt'
+ERROR 2023-01-16 21:45:11,093 "GET /news/ HTTP/1.1" 500 145 E:\PyCharmProjects\Module D7\venv\lib\site-packages\django\core\servers\basehttp.py None
